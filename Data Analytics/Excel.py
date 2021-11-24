@@ -4,6 +4,9 @@ A = input("Insira aqui o Path = ")
 B = input("Insira aqui o nome do arquivo = ")
 C = input("Insira a extensão do arquivo = ")
 caminho = A + "/" + B + "." + C;
-teste = pd.read_excel(caminho)
-print(teste)
+if C == "xlsx":
+    teste = pd.read_excel(caminho)
+    print(teste)
+else:
+    teste1 = pd.read_csv(caminho)
 
