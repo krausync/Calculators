@@ -1,7 +1,6 @@
 #Este código irá calcular as raízes da equação no formato ax²+bx+c = 0
 #Insira os valores de a, b e c
 import math
-import matplotlib.pyplot as plt
 a = float(input("Insira o valor de a = "))
 b = float(input("Insira o valor de b = "))
 c = float(input("Insira o valor de c = "))
@@ -19,7 +18,5 @@ if delta >0:
     print("O valor de delta é =", round(delta, d));
     print("O valor do X1 é =", round(bhaskara1, d));
     print("O valor do X2 é =", round(bhaskara2, d));
-    plt.scatter(bhaskara1,bhaskara2)
-    plt.show()
 else:
     print("Está função não possui raízes reais.")            

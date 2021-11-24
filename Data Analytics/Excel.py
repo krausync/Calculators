@@ -6,3 +6,4 @@ C = input("Insira a extensão do arquivo = ")
 caminho = A + "/" + B + "." + C;
 teste = pd.read_excel(caminho)
 print(teste)
+
