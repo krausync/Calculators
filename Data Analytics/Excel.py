@@ -7,6 +7,6 @@ caminho = A + "/" + B + "." + C;
 if C == "xlsx":
     teste = pd.read_excel(caminho)
     print(teste)
-else:
-    teste1 = pd.read_csv(caminho)
-
+else: 
+    teste2 = pd.read_csv(caminho)
+    print(teste2)
